@@ -1,6 +1,6 @@
 
 let a =[1,4,3,2,5,6,9,8];
-const ab= ["anv", "sap",124];
+const ab= ["avi", "sap",124];
 
 console.log("The original array:- "+a);
 console.log("The length is:- "+a.length);                                       // Length 
