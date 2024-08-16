@@ -7,11 +7,11 @@ const Student = {
 };
 
 console.log(Student);
-console.log("Accessing object 1 Name: "+Student.name);           // Objectname.keyname
+console.log("Accessing object 1 Name: "+Student.name);
 
 // singletone object
-const person = new Object()                                 // Object()
-person.id="124avi"                                          // objectname.key_name = values
+const person = new Object()
+person.id="124avi"
 person.name = "AVishkar"
 console.log(person);
 
@@ -20,5 +20,5 @@ const combine = {...Student, ...person}
 console.log(combine);
 
 // Another way to access object
-const {Roll_no}= Student                            // const {key} = Object_name
-console.log("Other way to access "+Roll_no);        // Direct keyname to access
+const {Roll_no}= Student
+console.log("Other way to access "+Roll_no);
